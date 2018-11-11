@@ -18,16 +18,16 @@ ROOT_DIR: '.'
 #
 
 # location of model files
-MODEL_DIR: 'clf_models'
+MODEL_DIR: 'models'
 
 # directory for data feature sets
-DATA_DIR: 'clf_data'
+DATA_DIR: 'data'
 
 # location of model results tracker file
-RESULTS_DIR: 'clf_results'
+RESULTS_DIR: 'results'
 
 # location for python scripts to create feature sets
-MUNGE_DIR: 'clf_munge'
+MUNGE_DIR: 'munge'
 
 
 #
@@ -35,7 +35,7 @@ MUNGE_DIR: 'clf_munge'
 #   calculateKaggleMetric
 #   formatKaggleSubmission
 #
-KAGGLE_CONTEST_FUNCTIONS:  'clf_kaggle_user_functions.py'
+KAGGLE_CONTEST_FUNCTIONS:  'kaggle_user_functions.py'
 
 
 #
